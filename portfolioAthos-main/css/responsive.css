@@ -1,0 +1,127 @@
+@media (max-width:1200px){
+   main{ 
+      width: 100%;
+
+     flex-direction: column;
+     align-items:center;
+     justify-content: center;
+ 
+   }
+   .main-content{
+    width: 100%;
+    align-items: center;
+
+    margin-bottom: 15%
+   }
+   main .main-content .text, .techs {
+      text-align: center;
+   }
+
+
+   main .main-content .text p {
+      font-size: 0.9em;
+      width: 100%
+      
+   }
+   main.techs .cards-container, .main-content .text p {
+   margin-top: top 32px;
+
+   }
+   span{
+      font-size: 0.8em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+}
+@media (max-width:700px){
+   header{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+   }
+
+   header h1{
+      font-size: 2em;
+   }
+
+   header nav{
+      margin-top: 10px;
+   }
+   header nav a{
+      font-size: 1.5em;
+
+   }
+
+   main .techs .cards-container .card {
+      width: 80px;
+      height: 80px;
+    }
+
+    main .main-content .text h2, .main-content .techs h2{
+      font-size: 1.2em;
+    }
+    main figure img {
+      width: 150px;
+      height: 150px;
+ }
+ span{
+   font-size: 0.5em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media (max-width:450px){
+   header{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+   }
+
+   header h1{
+      font-size: 2em;
+   }
+
+   header nav{
+      margin-top: 10px;
+   }
+   header nav a{
+      font-size: 1.5em;
+
+   }
+
+   main .techs .cards-container .card {
+      width: 40px;
+      height: 40px;
+    }
+
+    main .main-content .text h2, .main-content .techs h2{
+      font-size: 1.2em;
+    }
+    main .main-content .text p {
+       font-size: 0.7em;
+  }
+
+    main .techs .cards-container .card img {
+       width: 150%;
+   
+   }
+
+   }
+    main figure img {
+      width: 150px;
+      height: 150px;
+   }
+   span{
+      font-size: 0.3em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+}
